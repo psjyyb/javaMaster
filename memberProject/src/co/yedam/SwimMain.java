@@ -63,16 +63,16 @@ public class SwimMain {
 			case 4:
 				System.out.print("회원번호 >> ");
 				mno = Integer.parseInt(sc.nextLine());
-				if(dao.deleteSwim(mno)) {
+				if (dao.deleteSwim(mno)) {
 					System.out.println("정상 삭제");
-				}else {
+				} else {
 					System.out.println("예외 발생");
 				}
 				break;
 			case 5:
-			break;
-			case 6: 
-					run = false;
+				break;
+			case 6:
+				run = false;
 				break;
 			}
 		}
